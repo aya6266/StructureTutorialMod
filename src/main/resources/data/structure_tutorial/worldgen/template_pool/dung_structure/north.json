@@ -6,7 +6,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 5,
       "element": {
 
           // This side piece will only spawn if this piece is entirely outside or inside the calling piece's bounding box
@@ -19,7 +19,7 @@
           // Also, heads up, the structure_tutorial:run_down_house_left_side piece has a Jigsaw Block
           // that is targeting this pool directly. Be sure to change that Jigsaw Block's target pool
           // to make this side pool spawn in your own mod.
-        "location": "structure_tutorial:northclose",
+        "location": "structure_tutorial:north_close",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -29,9 +29,9 @@
 
         // A second entry here means the starting piece's Jigsaw Block has a 50% chance of spawning
         // this golden right side piece instead of the regular right side. Think of it like a lottery.
-      "weight": 1,
+      "weight": 3,
       "element": {
-        "location": "structure_tutorial:northsouthpath",
+        "location": "structure_tutorial:north_south_path",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -43,7 +43,7 @@
       // this golden right side piece instead of the regular right side. Think of it like a lottery.
       "weight": 1,
       "element": {
-        "location": "structure_tutorial:neswpath",
+        "location": "structure_tutorial:nesw_path",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
